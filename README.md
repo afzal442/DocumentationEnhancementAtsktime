@@ -2,10 +2,32 @@
 
 [![Gitter](https://img.shields.io/gitter/room/nwjs/nw.js.svg)](https://gitter.im/sktime/community) [![Matrix](https://img.shields.io/badge/matrix-%23orbitdb%3Apermaweb.io-blue.svg)](https://www.sktime.org/en/latest/how_to_get_started.html) [![Discord](https://img.shields.io/discord/475789330380488707?color=blueviolet&label=discord)](https://discord.com/invite/gqSab2K)
 
+
+## Welcome!
+
+Thank you for visiting the *Documentation Enhancement with open science practices* project repository. Find out more about the project below.
+
+## :seedling: What are we doing?
+
 **Vision statement:**
 To make it easier for users and developers of sktime to recognize their contributions more visibly and formally to encourage long-term maintenance of their contributions
 
-This repository is meant to serve as a general template for how to set up new repositories in the @orbitdb organization. In general, setting up a new repository should take only a few minutes; use this repository as a way of finding example files, and use the following checklist to ensure that you've set up the repository correctly.
+### The problem
+
+### The solution
+
+## :ear_of_rice: Who are we?
+
+Project lead: [Afzal Ansari](https://github.com/afzal442) and Abdulelah Al Mesfer
+
+Read more about
+
+## Acknowledgments
+
+This project is developed as part of the [Open Life Science](https://openlifesci.org/) program, with mentorship from [Toby Hodges](https://github.com/tobyhodges).
+
+README was inspired by [STEMM Role Models App](https://github.com/KirstieJane/STEMMRoleModels/blob/gh-pages/README.md).
+
 
 ## Install
 
