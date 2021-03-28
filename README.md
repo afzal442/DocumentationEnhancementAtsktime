@@ -1,6 +1,6 @@
 # Documentation Enhancement with open science practices at sktime
 
-[![Gitter](https://img.shields.io/gitter/room/nwjs/nw.js.svg)](https://gitter.im/sktime/community) [![Matrix](https://img.shields.io/badge/matrix-%23orbitdb%3Apermaweb.io-blue.svg)](https://www.sktime.org/en/latest/how_to_get_started.html) [![Discord](https://img.shields.io/discord/475789330380488707?color=blueviolet&label=discord)](https://discord.com/invite/gqSab2K)
+[![Gitter](https://img.shields.io/gitter/room/nwjs/nw.js.svg)](https://gitter.im/sktime/community) [![Matrix](https://img.shields.io/badge/matrix-%23sktime%3Asktime.org-blue.svg)](https://www.sktime.org/en/latest/how_to_get_started.html) [![Discord](https://img.shields.io/discord/475789330380488707?color=blueviolet&label=discord)](https://discord.com/invite/gqSab2K)
 
 
 ## Welcome!
@@ -13,8 +13,10 @@ Thank you for visiting the *Documentation Enhancement with open science practice
 To make it easier for users and developers of sktime to recognize their contributions more visibly and formally to encourage long-term maintenance of their contributions
 
 ### The problem
+There is a lack of an estimator overview in sktime linking code (classes or functions), with their docstring, the contributor and literature. This makes it hard for users when they have a question to ask about any particular code or an algorithm.
 
 ### The solution
+To solve the problem, we need to implement an automated learning algorithm. 
 
 ## :ear_of_rice: Who are we?
 
@@ -102,10 +104,10 @@ Go through this checklist after creating your repository. It should only take a 
 
 ## Contribute
 
-If you think this could be better, please [open an issue](https://github.com/orbitdb/repo-template/issues/new)!
+If you think this could be better, please [open an issue](https://github.com/afzal442/DocumentationEnhancementAtsktime/issues/new)!
 
-Please note that all interactions in [@OrbitDB](https://github.com/orbitdb) fall under our [Code of Conduct](CODE_OF_CONDUCT.md).
+Please note that all interactions in [@afzal442](https://github.com/afzal442) fall under our [Code of Conduct](CODE_OF_CONDUCT.md).
 
 ## License
 
-[MIT](LICENSE) © 2018 Haja Networks Oy
+[MIT](LICENSE) © 2021
