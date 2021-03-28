@@ -31,7 +31,7 @@ This project is developed as part of the [Open Life Science](https://openlifesci
 README was inspired by [STEMM Role Models App](https://github.com/KirstieJane/STEMMRoleModels/blob/gh-pages/README.md).
 
 
-## Install
+<!-- ## Install
 
 These instructions are basic; you can use any method to do this work. The important part is making sure that you follow the checklist below before publishing the repository.
 
@@ -100,7 +100,7 @@ Go through this checklist after creating your repository. It should only take a 
 
 ### Examples
 - [ ] Is there an example folder with usage examples?
-- [ ] For the browser as well?
+- [ ] For the browser as well? -->
 
 ## Contribute
 
