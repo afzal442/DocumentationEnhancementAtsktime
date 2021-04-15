@@ -54,15 +54,8 @@ further defined and clarified by project maintainers.
 
 ## Enforcement
 
-Instances of abusive, harassing, or otherwise unacceptable behavior may be
-reported by contacting the project team at [community@orbitdb.org](mailto:community@orbitdb.org), which goes to all members of the @OrbitDB community team, or to [richardlitt@orbitdb.org](mailto:richardlitt@orbitdb.org), which goes only to [@RichardLitt](https://github.com/RichardLitt) or to [haadcode@orbitdb.org](mailto:haadcode@orbitdb.org), which goes only to [@haadcode](https://github.com/haadcode). All
-complaints will be reviewed and investigated and will result in a response that
-is deemed necessary and appropriate to the circumstances. The project team is
-obligated to maintain confidentiality with regard to the reporter of an incident.
-Further details of specific enforcement policies may be posted separately.
-
-Project maintainers who do not follow or enforce the Code of Conduct in good
-faith may face temporary or permanent repercussions as determined by other
+Instances of abusive, harassing, or otherwise unacceptable behavior may be reported by contacting the project team at myteam@afzal-space.co. All complaints will be reviewed and investigated and will result in a response that is deemed necessary and appropriate to the circumstances. The project team is obligated to maintain confidentiality with regard to the reporter of an incident. Further details of specific enforcement policies may be posted separately.
+Project maintainers who do not follow or enforce the Code of Conduct in good faith may face temporary or permanent repercussions as determined by other
 members of the project's leadership.
 
 ## Attribution
