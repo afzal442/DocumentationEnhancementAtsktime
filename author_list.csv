@@ -1,0 +1,24 @@
+Class_Name,Class_ID,Estimator_TypesAuthors
+ARIMA,<class 'sktime.forecasting.arima.ARIMA'>,regressor,"['Markus Löning', 'Hongyi Yang']"
+BOSSEnsemble,<class 'sktime.classification.dictionary_based._boss.BOSSEnsemble'>,classifier,Matthew Middlehurst
+ColumnEnsembleClassifier,<class 'sktime.classification.compose._column_ensemble.ColumnEnsembleClassifier'>,classifier,['Aaron Bostrom']
+ComposableTimeSeriesForestClassifier,<class 'sktime.classification.compose._ensemble.ComposableTimeSeriesForestClassifier'>,classifier,"['Markus Löning', 'Ayushmaan Seth']"
+ContractableBOSS,<class 'sktime.classification.dictionary_based._cboss.ContractableBOSS'>,classifier,Matthew Middlehurst
+ElasticEnsemble,<class 'sktime.classification.distance_based._elastic_ensemble.ElasticEnsemble'>,classifier,Jason Lines
+HIVECOTEV1,<class 'sktime.classification.hybrid._hivecote_v1.HIVECOTEV1'>,classifier,Matthew Middlehurst
+IndividualBOSS,<class 'sktime.classification.dictionary_based._boss.IndividualBOSS'>,classifier,Matthew Middlehurst
+IndividualTDE,<class 'sktime.classification.dictionary_based._tde.IndividualTDE'>,classifier,Matthew Middlehurst
+KNeighborsTimeSeriesClassifier,<class 'sktime.classification.distance_based._time_series_neighbors.KNeighborsTimeSeriesClassifier'>,classifier,"['Jason Lines', 'TonyBagnall']"
+MUSE,<class 'sktime.classification.dictionary_based._muse.MUSE'>,classifier,Patrick Schäfer
+MrSEQLClassifier,<class 'sktime.classification.shapelet_based.mrseql.mrseql.MrSEQLClassifier'>,classifier,['Thach Le Nguyen']
+ProximityForest,<class 'sktime.classification.distance_based._proximity_forest.ProximityForest'>,classifier,['George Oastler']
+ProximityStump,<class 'sktime.classification.distance_based._proximity_forest.ProximityStump'>,classifier,George Oastler (linkedin.com/goastler; github.com/goastler)
+ProximityTree,<class 'sktime.classification.distance_based._proximity_forest.ProximityTree'>,classifier,['George Oastler']
+ROCKETClassifier,<class 'sktime.classification.shapelet_based._rocket_classifier.ROCKETClassifier'>,classifier,"['Matthew Middlehurst', 'Oleksii Kachaiev']"
+RandomIntervalSpectralForest,<class 'sktime.classification.interval_based._rise.RandomIntervalSpectralForest'>,classifier,"['Tony Bagnall', 'Yi-Xuan Xu']"
+ShapeDTW,<class 'sktime.classification.distance_based._shape_dtw.ShapeDTW'>,classifier,['Vincent Nicholson']
+ShapeletTransformClassifier,<class 'sktime.classification.shapelet_based._stc.ShapeletTransformClassifier'>,classifier,Tony Bagnall
+SupervisedTimeSeriesForest,<class 'sktime.classification.interval_based._stsf.SupervisedTimeSeriesForest'>,classifier,['Matthew Middlehurst']
+TemporalDictionaryEnsemble,<class 'sktime.classification.dictionary_based._tde.TemporalDictionaryEnsemble'>,classifier,Matthew Middlehurst
+TimeSeriesForestClassifier,<class 'sktime.classification.interval_based._tsf.TimeSeriesForestClassifier'>,classifier,"['Tony Bagnall', 'kkoziara', 'luiszugasti', 'kanand77']"
+TimeSeriesForestRegressor,<class 'sktime.regression.interval_based._tsf.TimeSeriesForestRegressor'>,regressor,"['Tony Bagnall', 'kkoziara', 'luiszugasti', 'kanand77', 'Markus Löning']"
