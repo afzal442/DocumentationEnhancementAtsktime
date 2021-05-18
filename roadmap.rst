@@ -1,4 +1,4 @@
-Pro overview
+Stat overview
 ^^^^^^^^^^^^^^^^
 
 .. csv-table:: Learner_Status
