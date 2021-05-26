@@ -7,6 +7,9 @@
     </script>
   
     <style>
+		    html {
+			      font-family: "Lucida Sans Unicode", "Lucida Grande", Sans-Serif;
+		    }
         input {
             background-image: url('/css/searchicon.png'); /* Add a search icon to input */
             background-position: 10px 12px; /* Position the search icon */
@@ -19,27 +22,32 @@
         }
 
         table {
-            font-family: arial, sans-serif;
             border-collapse: collapse;
             width: 80%;
-            border: 1px solid #ddd; /* Add a grey border */
-            border-color: black;
+            margin: 0 auto;
+			      clear: both;
+            border-spacing: 0;
         }
-          
-        td{
-            border: 1px solid #dddddd;
+        th,  
+        td {
+            border: 1px solid #ddd;
+            color: #6678b1;
             text-align: left;
-            padding: 8px;
+            padding: 3px;
             font-size: 12px; /* Increase font-size */
+            outline: none;
         }
 
-        th {
-            border: 1px solid #dddddd;
+        thead th {
+            border-bottom: 1px solid #333131;
             text-align: left;
             font-size: 15px; /* Increase font-size */
             padding: 8px;
-        }
-          
+            font-weight: bold;
+            outline: none;
+            color: #039 !important;
+		    }
+        
         h1 {
             color: green;
         }
