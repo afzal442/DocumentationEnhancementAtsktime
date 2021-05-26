@@ -1,24 +1,97 @@
-Class_Name,Class_ID,Estimator_TypesAuthors
-ARIMA,<class 'sktime.forecasting.arima.ARIMA'>,regressor,"['Markus Löning', 'Hongyi Yang']"
-BOSSEnsemble,<class 'sktime.classification.dictionary_based._boss.BOSSEnsemble'>,classifier,Matthew Middlehurst
-ColumnEnsembleClassifier,<class 'sktime.classification.compose._column_ensemble.ColumnEnsembleClassifier'>,classifier,['Aaron Bostrom']
-ComposableTimeSeriesForestClassifier,<class 'sktime.classification.compose._ensemble.ComposableTimeSeriesForestClassifier'>,classifier,"['Markus Löning', 'Ayushmaan Seth']"
-ContractableBOSS,<class 'sktime.classification.dictionary_based._cboss.ContractableBOSS'>,classifier,Matthew Middlehurst
-ElasticEnsemble,<class 'sktime.classification.distance_based._elastic_ensemble.ElasticEnsemble'>,classifier,Jason Lines
-HIVECOTEV1,<class 'sktime.classification.hybrid._hivecote_v1.HIVECOTEV1'>,classifier,Matthew Middlehurst
-IndividualBOSS,<class 'sktime.classification.dictionary_based._boss.IndividualBOSS'>,classifier,Matthew Middlehurst
-IndividualTDE,<class 'sktime.classification.dictionary_based._tde.IndividualTDE'>,classifier,Matthew Middlehurst
-KNeighborsTimeSeriesClassifier,<class 'sktime.classification.distance_based._time_series_neighbors.KNeighborsTimeSeriesClassifier'>,classifier,"['Jason Lines', 'TonyBagnall']"
-MUSE,<class 'sktime.classification.dictionary_based._muse.MUSE'>,classifier,Patrick Schäfer
-MrSEQLClassifier,<class 'sktime.classification.shapelet_based.mrseql.mrseql.MrSEQLClassifier'>,classifier,['Thach Le Nguyen']
-ProximityForest,<class 'sktime.classification.distance_based._proximity_forest.ProximityForest'>,classifier,['George Oastler']
-ProximityStump,<class 'sktime.classification.distance_based._proximity_forest.ProximityStump'>,classifier,George Oastler (linkedin.com/goastler; github.com/goastler)
-ProximityTree,<class 'sktime.classification.distance_based._proximity_forest.ProximityTree'>,classifier,['George Oastler']
-ROCKETClassifier,<class 'sktime.classification.shapelet_based._rocket_classifier.ROCKETClassifier'>,classifier,"['Matthew Middlehurst', 'Oleksii Kachaiev']"
-RandomIntervalSpectralForest,<class 'sktime.classification.interval_based._rise.RandomIntervalSpectralForest'>,classifier,"['Tony Bagnall', 'Yi-Xuan Xu']"
-ShapeDTW,<class 'sktime.classification.distance_based._shape_dtw.ShapeDTW'>,classifier,['Vincent Nicholson']
-ShapeletTransformClassifier,<class 'sktime.classification.shapelet_based._stc.ShapeletTransformClassifier'>,classifier,Tony Bagnall
-SupervisedTimeSeriesForest,<class 'sktime.classification.interval_based._stsf.SupervisedTimeSeriesForest'>,classifier,['Matthew Middlehurst']
-TemporalDictionaryEnsemble,<class 'sktime.classification.dictionary_based._tde.TemporalDictionaryEnsemble'>,classifier,Matthew Middlehurst
-TimeSeriesForestClassifier,<class 'sktime.classification.interval_based._tsf.TimeSeriesForestClassifier'>,classifier,"['Tony Bagnall', 'kkoziara', 'luiszugasti', 'kanand77']"
-TimeSeriesForestRegressor,<class 'sktime.regression.interval_based._tsf.TimeSeriesForestRegressor'>,regressor,"['Tony Bagnall', 'kkoziara', 'luiszugasti', 'kanand77', 'Markus Löning']"
+Class_Name,Class_ID,Estimator_Types,Authors
+ARIMA,<class 'sktime.forecasting.arima.ARIMA'>,forecasting,Markus Löning & Hongyi Yang
+AutoARIMA,<class 'sktime.forecasting.arima.AutoARIMA'>,forecasting,Markus Löning & Hongyi Yang
+AutoCorrelationTransformer,<class 'sktime.transformations.series.acf.AutoCorrelationTransformer'>,transformations::series,Afzal Ansari
+AutoETS,<class 'sktime.forecasting.ets.AutoETS'>,forecasting,Hongyi Yang
+BATS,<class 'sktime.forecasting.bats.BATS'>,forecasting,Martin Walter
+BOSSEnsemble,<class 'sktime.classification.dictionary_based._boss.BOSSEnsemble'>,classification::dictionary_based,Matthew Middlehurst
+BoxCoxTransformer,<class 'sktime.transformations.series.boxcox.BoxCoxTransformer'>,transformations::series,Markus Löning
+Catch22,<class 'sktime.transformations.panel.catch22_features.Catch22'>,transformations::panel,Matthew Middlehurst
+ColumnConcatenator,<class 'sktime.transformations.panel.compose.ColumnConcatenator'>,transformations::panel,Markus Löning & Sajay Ganesh
+ColumnEnsembleClassifier,<class 'sktime.classification.compose._column_ensemble.ColumnEnsembleClassifier'>,classification::compose,Aaron Bostrom
+ColumnTransformer,<class 'sktime.transformations.panel.compose.ColumnTransformer'>,transformations::panel,Markus Löning & Sajay Ganesh
+ComposableTimeSeriesForestClassifier,<class 'sktime.classification.compose._ensemble.ComposableTimeSeriesForestClassifier'>,classification::compose,Markus Löning & Ayushmaan Seth
+ComposableTimeSeriesForestRegressor,<class 'sktime.regression.compose._ensemble.ComposableTimeSeriesForestRegressor'>,regression::compose,Markus Löning & Ayushmaan Seth
+ConditionalDeseasonalizer,<class 'sktime.transformations.series.detrend._deseasonalize.ConditionalDeseasonalizer'>,transformations::series::detrend,Markus Löning
+ContractableBOSS,<class 'sktime.classification.dictionary_based._cboss.ContractableBOSS'>,classification::dictionary_based,Matthew Middlehurst
+ContractedShapeletTransform,<class 'sktime.transformations.panel.shapelets.ContractedShapeletTransform'>,transformations::panel,Jason Lines & David Guijo
+CosineTransformer,<class 'sktime.transformations.series.cos.CosineTransformer'>,transformations::series,Afzal Ansari
+DWTTransformer,<class 'sktime.transformations.panel.dwt.DWTTransformer'>,transformations::panel,Vincent Nicholson
+DerivativeSlopeTransformer,<class 'sktime.transformations.panel.summarize._extract.DerivativeSlopeTransformer'>,transformations::panel::summarize,no author info
+Deseasonalizer,<class 'sktime.transformations.series.detrend._deseasonalize.Deseasonalizer'>,transformations::series::detrend,Markus Löning
+Detrender,<class 'sktime.transformations.series.detrend._detrend.Detrender'>,transformations::series::detrend,Markus Löning
+DirRecTabularRegressionForecaster,<class 'sktime.forecasting.compose._reduce.DirRecTabularRegressionForecaster'>,forecasting::compose,"Ayushmaan Seth, Kavin Anand, Luis Zugasti, Lovkush Agarwal & Markus Löning"
+DirRecTimeSeriesRegressionForecaster,<class 'sktime.forecasting.compose._reduce.DirRecTimeSeriesRegressionForecaster'>,forecasting::compose,"Ayushmaan Seth, Kavin Anand, Luis Zugasti, Lovkush Agarwal & Markus Löning"
+DirectTabularRegressionForecaster,<class 'sktime.forecasting.compose._reduce.DirectTabularRegressionForecaster'>,forecasting::compose,"Ayushmaan Seth, Kavin Anand, Luis Zugasti, Lovkush Agarwal & Markus Löning"
+DirectTimeSeriesRegressionForecaster,<class 'sktime.forecasting.compose._reduce.DirectTimeSeriesRegressionForecaster'>,forecasting::compose,"Ayushmaan Seth, Kavin Anand, Luis Zugasti, Lovkush Agarwal & Markus Löning"
+ElasticEnsemble,<class 'sktime.classification.distance_based._elastic_ensemble.ElasticEnsemble'>,classification::distance_based,Jason Lines
+EnsembleForecaster,<class 'sktime.forecasting.compose._ensemble.EnsembleForecaster'>,forecasting::compose,Markus Löning
+ExponentialSmoothing,<class 'sktime.forecasting.exp_smoothing.ExponentialSmoothing'>,forecasting,Markus Löning & @big-o
+FeatureUnion,<class 'sktime.series_as_features.compose._pipeline.FeatureUnion'>,series_as_features::compose,Markus Löning
+FittedParamExtractor,<class 'sktime.transformations.panel.summarize._extract.FittedParamExtractor'>,transformations::panel::summarize,no author info
+ForecastingGridSearchCV,<class 'sktime.forecasting.model_selection._tune.ForecastingGridSearchCV'>,forecasting::model_selection,Markus Löning
+ForecastingRandomizedSearchCV,<class 'sktime.forecasting.model_selection._tune.ForecastingRandomizedSearchCV'>,forecasting::model_selection,Markus Löning
+HCrystalBallForecaster,<class 'sktime.forecasting.hcrystalball.HCrystalBallForecaster'>,forecasting,no author info
+HIVECOTEV1,<class 'sktime.classification.hybrid._hivecote_v1.HIVECOTEV1'>,classification::hybrid,Matthew Middlehurst
+HOG1DTransformer,<class 'sktime.transformations.panel.hog1d.HOG1DTransformer'>,transformations::panel,no author info
+HampelFilter,<class 'sktime.transformations.series.outlier_detection.HampelFilter'>,transformations::series,Martin Walter
+Imputer,<class 'sktime.transformations.series.impute.Imputer'>,transformations::series,Martin Walter
+IndividualBOSS,<class 'sktime.classification.dictionary_based._boss.IndividualBOSS'>,classification::dictionary_based,Matthew Middlehurst
+IndividualTDE,<class 'sktime.classification.dictionary_based._tde.IndividualTDE'>,classification::dictionary_based,Matthew Middlehurst
+IntervalSegmenter,<class 'sktime.transformations.panel.segment.IntervalSegmenter'>,transformations::panel,no author info
+KNeighborsTimeSeriesClassifier,<class 'sktime.classification.distance_based._time_series_neighbors.KNeighborsTimeSeriesClassifier'>,classification::distance_based,Jason Lines & TonyBagnall
+LogTransformer,<class 'sktime.transformations.series.boxcox.LogTransformer'>,transformations::series,Markus Löning
+MUSE,<class 'sktime.classification.dictionary_based._muse.MUSE'>,classification::dictionary_based,Patrick Schäfer
+MatrixProfile,<class 'sktime.transformations.panel.matrix_profile.MatrixProfile'>,transformations::panel,no author info
+MatrixProfileTransformer,<class 'sktime.transformations.series.matrix_profile.MatrixProfileTransformer'>,transformations::series,Markus Löning
+MeanTransformer,<class 'sktime.transformations.series.summarize.MeanTransformer'>,transformations::series,Markus Löning
+MiniRocket,<class 'sktime.transformations.panel.rocket._minirocket.MiniRocket'>,transformations::panel::rocket,Angus Dempster
+MiniRocketMultivariate,<class 'sktime.transformations.panel.rocket._minirocket_multivariate.MiniRocketMultivariate'>,transformations::panel::rocket,Angus Dempster
+MrSEQLClassifier,<class 'sktime.classification.shapelet_based.mrseql.mrseql.MrSEQLClassifier'>,classification::shapelet_based::mrseql,Thach Le Nguyen
+MultioutputTabularRegressionForecaster,<class 'sktime.forecasting.compose._reduce.MultioutputTabularRegressionForecaster'>,forecasting::compose,"Ayushmaan Seth, Kavin Anand, Luis Zugasti, Lovkush Agarwal & Markus Löning"
+MultioutputTimeSeriesRegressionForecaster,<class 'sktime.forecasting.compose._reduce.MultioutputTimeSeriesRegressionForecaster'>,forecasting::compose,"Ayushmaan Seth, Kavin Anand, Luis Zugasti, Lovkush Agarwal & Markus Löning"
+MultiplexForecaster,<class 'sktime.forecasting.compose._multiplexer.MultiplexForecaster'>,forecasting::compose,Kutay Koralturk
+NaiveForecaster,<class 'sktime.forecasting.naive.NaiveForecaster'>,forecasting,Markus Löning & Piyush Gade
+OnlineEnsembleForecaster,<class 'sktime.forecasting.online_learning._online_ensemble.OnlineEnsembleForecaster'>,forecasting::online_learning,no author info
+OptionalPassthrough,<class 'sktime.transformations.series.compose.OptionalPassthrough'>,transformations::series,Martin Walter
+PAA,<class 'sktime.transformations.panel.dictionary_based._paa.PAA'>,transformations::panel::dictionary_based,Matthew Middlehurst
+PCATransformer,<class 'sktime.transformations.panel.pca.PCATransformer'>,transformations::panel,Patrick Rockenschaub
+PaddingTransformer,<class 'sktime.transformations.panel.padder.PaddingTransformer'>,transformations::panel,Aaron Bostrom
+PartialAutoCorrelationTransformer,<class 'sktime.transformations.series.acf.PartialAutoCorrelationTransformer'>,transformations::series,Afzal Ansari
+PlateauFinder,<class 'sktime.transformations.panel.summarize._extract.PlateauFinder'>,transformations::panel::summarize,no author info
+PolynomialTrendForecaster,<class 'sktime.forecasting.trend.PolynomialTrendForecaster'>,forecasting,Markus Löning
+Prophet,<class 'sktime.forecasting.fbprophet.Prophet'>,forecasting,Martin Walter
+ProximityForest,<class 'sktime.classification.distance_based._proximity_forest.ProximityForest'>,classification::distance_based,George Oastler
+ProximityStump,<class 'sktime.classification.distance_based._proximity_forest.ProximityStump'>,classification::distance_based,George Oastler (linkedin.com/goastler; github.com/goastler)
+ProximityTree,<class 'sktime.classification.distance_based._proximity_forest.ProximityTree'>,classification::distance_based,George Oastler
+ROCKETClassifier,<class 'sktime.classification.shapelet_based._rocket_classifier.ROCKETClassifier'>,classification::shapelet_based,Matthew Middlehurst & Oleksii Kachaiev
+RandomIntervalFeatureExtractor,<class 'sktime.transformations.panel.summarize._extract.RandomIntervalFeatureExtractor'>,transformations::panel::summarize,no author info
+RandomIntervalSegmenter,<class 'sktime.transformations.panel.segment.RandomIntervalSegmenter'>,transformations::panel,no author info
+RandomIntervalSpectralForest,<class 'sktime.classification.interval_based._rise.RandomIntervalSpectralForest'>,classification::interval_based,Tony Bagnall & Yi-Xuan Xu
+RecursiveTabularRegressionForecaster,<class 'sktime.forecasting.compose._reduce.RecursiveTabularRegressionForecaster'>,forecasting::compose,"Ayushmaan Seth, Kavin Anand, Luis Zugasti, Lovkush Agarwal & Markus Löning"
+RecursiveTimeSeriesRegressionForecaster,<class 'sktime.forecasting.compose._reduce.RecursiveTimeSeriesRegressionForecaster'>,forecasting::compose,"Ayushmaan Seth, Kavin Anand, Luis Zugasti, Lovkush Agarwal & Markus Löning"
+Rocket,<class 'sktime.transformations.panel.rocket._rocket.Rocket'>,transformations::panel::rocket,Angus Dempster
+SAX,<class 'sktime.transformations.panel.dictionary_based._sax.SAX'>,transformations::panel::dictionary_based,Matthew Middlehurst
+SFA,<class 'sktime.transformations.panel.dictionary_based._sfa.SFA'>,transformations::panel::dictionary_based,Matthew Middlehurst & Patrick Schäfer
+SeriesToPrimitivesRowTransformer,<class 'sktime.transformations.panel.compose.SeriesToPrimitivesRowTransformer'>,transformations::panel,Markus Löning & Sajay Ganesh
+SeriesToSeriesRowTransformer,<class 'sktime.transformations.panel.compose.SeriesToSeriesRowTransformer'>,transformations::panel,Markus Löning & Sajay Ganesh
+ShapeDTW,<class 'sktime.classification.distance_based._shape_dtw.ShapeDTW'>,classification::distance_based,Vincent Nicholson
+ShapeletTransform,<class 'sktime.transformations.panel.shapelets.ShapeletTransform'>,transformations::panel,Jason Lines & David Guijo
+ShapeletTransformClassifier,<class 'sktime.classification.shapelet_based._stc.ShapeletTransformClassifier'>,classification::shapelet_based,Tony Bagnall
+SlidingWindowSegmenter,<class 'sktime.transformations.panel.segment.SlidingWindowSegmenter'>,transformations::panel,no author info
+SlopeTransformer,<class 'sktime.transformations.panel.slope.SlopeTransformer'>,transformations::panel,no author info
+StackingForecaster,<class 'sktime.forecasting.compose._stack.StackingForecaster'>,forecasting::compose,Markus Löning
+SupervisedTimeSeriesForest,<class 'sktime.classification.interval_based._stsf.SupervisedTimeSeriesForest'>,classification::interval_based,Matthew Middlehurst
+TBATS,<class 'sktime.forecasting.tbats.TBATS'>,forecasting,Martin Walter
+TSFreshFeatureExtractor,<class 'sktime.transformations.panel.tsfresh.TSFreshFeatureExtractor'>,transformations::panel,"Ayushmaan Seth, Markus Löning & Alwin Wang"
+TSFreshRelevantFeatureExtractor,<class 'sktime.transformations.panel.tsfresh.TSFreshRelevantFeatureExtractor'>,transformations::panel,"Ayushmaan Seth, Markus Löning & Alwin Wang"
+TSInterpolator,<class 'sktime.transformations.panel.interpolate.TSInterpolator'>,transformations::panel,no author info
+TabularToSeriesAdaptor,<class 'sktime.transformations.series.adapt.TabularToSeriesAdaptor'>,transformations::series,Markus Löning
+Tabularizer,<class 'sktime.transformations.panel.reduce.Tabularizer'>,transformations::panel,Markus Löning
+TemporalDictionaryEnsemble,<class 'sktime.classification.dictionary_based._tde.TemporalDictionaryEnsemble'>,classification::dictionary_based,Matthew Middlehurst
+ThetaForecaster,<class 'sktime.forecasting.theta.ThetaForecaster'>,forecasting,@big-o & Markus Löning
+TimeSeriesForestClassifier,<class 'sktime.classification.interval_based._tsf.TimeSeriesForestClassifier'>,classification::interval_based,"Tony Bagnall, kkoziara, luiszugasti & kanand77"
+TimeSeriesForestRegressor,<class 'sktime.regression.interval_based._tsf.TimeSeriesForestRegressor'>,regression::interval_based,"Tony Bagnall, kkoziara, luiszugasti, kanand77 & Markus Löning"
+TransformedTargetForecaster,<class 'sktime.forecasting.compose._pipeline.TransformedTargetForecaster'>,forecasting::compose,Markus Löning
+TruncationTransformer,<class 'sktime.transformations.panel.truncation.TruncationTransformer'>,transformations::panel,Aaron Bostrom
+WEASEL,<class 'sktime.classification.dictionary_based._weasel.WEASEL'>,classification::dictionary_based,Patrick Schäfer & Arik Ermshaus
